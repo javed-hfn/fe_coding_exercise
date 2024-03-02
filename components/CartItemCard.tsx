@@ -1,5 +1,5 @@
 import React from "react";
-import { decrement, increment } from "store/features/productCartSlice";
+import { decrement, increment } from "store/reducers/productCartSlice";
 import { useAppDispatch } from "store/store";
 import QtyBtnComp from "./QtyBtnComp";
 import { Product } from "../interfaces";

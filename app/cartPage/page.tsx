@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import CartItemCard from "components/CartItemCard";
-import { TotalPriceSelector } from "store/features/productCartSlice";
+import { TotalPriceSelector } from "store/reducers/productCartSlice";
 import { useAppSelector } from "store/store";
 
 const CartPage = () => {

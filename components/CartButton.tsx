@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { totalCartItemsSelector } from "store/features/productCartSlice";
+import { totalCartItemsSelector } from "store/reducers/productCartSlice";
 import { useAppSelector } from "store/store";
 
 interface Props {

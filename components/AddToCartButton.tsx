@@ -4,7 +4,7 @@ import {
   decrement,
   increment,
   productQtyInCartSelector,
-} from "store/features/productCartSlice";
+} from "store/reducers/productCartSlice";
 import { useAppDispatch, useAppSelector } from "store/store";
 import QtyBtnComp from "./QtyBtnComp";
 
